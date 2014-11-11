@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878BB19E1A11DF6E00E1A485 /* ring.caf in Resources */ = {isa = PBXBuildFile; fileRef = 878BB19D1A11DF6E00E1A485 /* ring.caf */; };
 		879161941A10B04E00720F43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 879161931A10B04E00720F43 /* main.m */; };
 		879161971A10B04F00720F43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 879161961A10B04F00720F43 /* AppDelegate.m */; };
 		8791619A1A10B04F00720F43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879161991A10B04F00720F43 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		878BB19D1A11DF6E00E1A485 /* ring.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ring.caf; sourceTree = "<group>"; };
 		8791618E1A10B04E00720F43 /* LocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879161921A10B04E00720F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		879161931A10B04E00720F43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		879161901A10B04E00720F43 /* LocalNotification */ = {
 			isa = PBXGroup;
 			children = (
+				878BB19D1A11DF6E00E1A485 /* ring.caf */,
 				879161951A10B04F00720F43 /* AppDelegate.h */,
 				879161961A10B04F00720F43 /* AppDelegate.m */,
 				879161981A10B04F00720F43 /* ViewController.h */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878BB19E1A11DF6E00E1A485 /* ring.caf in Resources */,
 				8791619D1A10B04F00720F43 /* Main.storyboard in Resources */,
 				879161A21A10B04F00720F43 /* LaunchScreen.xib in Resources */,
 				8791619F1A10B04F00720F43 /* Images.xcassets in Resources */,
@@ -344,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LocalNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LocalNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +418,7 @@
 				879161B31A10B04F00720F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		879161B41A10B04F00720F43 /* Build configuration list for PBXNativeTarget "LocalNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				879161B61A10B04F00720F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
